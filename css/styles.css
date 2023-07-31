@@ -49,9 +49,9 @@ body {
 }
 .container {
   width: 100%;
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 428px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
 }
 .link {
@@ -348,44 +348,31 @@ body {
 
 /**------Feature-----**/
 .feature {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 .feature-block {
-  width: 264px;
-  height: 112px;
-  border-radius: 4px;
-  background: var(--cloud, #f4f4fd);
-  margin-bottom: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.feature-icon {
-  margin: 24px 100px;
+  display: none;
 }
 .feature-title {
-  color: var(--brand-color);
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  line-height: 1.2;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
   margin-bottom: 8px;
 }
 .feature-text {
-  color: var(--color-contact);
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  display: flex;
-  width: 264px;
-  flex-direction: column;
+  font-weight: 500;
+  width: 100%;
 }
 .feature-list {
   display: flex;
-  margin: 0 auto;
-  gap: 24px;
+  gap: 72px;
+  flex-wrap: wrap;
+}
+.feature-item {
+  width: 100%;
 }
 
 /**-----Section 3 What we are doing----**/
