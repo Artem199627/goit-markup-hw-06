@@ -28,6 +28,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    text-align: left;
   }
   .feature-text {
     color: var(--color-contact);
@@ -44,6 +45,6 @@
     gap: 24px;
   }
 }
-/* .feature-item {
-  width: calc((100% - 24px * 3) / 4);
-} */
+.feature-item {
+  /* flex-basis: calc((100% - 24px * 3) / 4); */
+}

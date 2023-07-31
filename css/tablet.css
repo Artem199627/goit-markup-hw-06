@@ -5,9 +5,9 @@
   .feature {
     padding: 96px 0;
   }
-  /* .feature-item {
+  .feature-item {
     width: calc((100% - 24px) / 2);
-  } */
+  }
   .feature-list {
     flex-direction: row;
     flex-wrap: wrap;
