@@ -2,6 +2,7 @@
   .container {
     max-width: 768px;
   }
+  /**--Feature--**/
   .feature {
     padding: 96px 0;
   }
@@ -12,5 +13,17 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px 24px;
+  }
+  /**------Customers-----**/
+  .customers-item {
+    width: calc((100% - 24px * 2) / 3);
+  }
+  /** ------Hero ------ **/
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tab.jpg);
   }
 }

@@ -297,29 +297,29 @@ body {
 /** ------Hero ------ **/
 .hero {
   background: var(--brand-color);
-  padding: 188px 0;
+  padding-top: 112px;
+  padding-bottom: 112px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/people-office-mob.jpg);
   background-position: center;
-  max-width: 1440px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: auto;
 }
+
 .hero-title {
   color: var(--color-text);
-  font-size: 56px;
+  font-size: 36px;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  line-height: 1.07;
+  line-height: 1.11;
   letter-spacing: 0.02em;
-  max-width: 496px;
+  max-width: 320px;
   margin: 0 auto;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 .hero-btn {
   color: var(--color-text);
@@ -480,8 +480,8 @@ body {
 
 /**-----Customers----**/
 .customers {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .customers-title {
   color: var(--navyblue, #2e2f42);
@@ -492,15 +492,15 @@ body {
   letter-spacing: 0.72;
   text-transform: capitalize;
   margin-bottom: 72px;
+  font-weight: 700;
 }
 .customers-list {
   display: flex;
-  gap: 24px;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 .customers-item {
-  width: 168px;
-  height: 88px;
+  width: calc((100% - 16px) / 2);
 }
 .customers-link {
   width: 100%;
