@@ -50,7 +50,6 @@
   .header-menu {
     display: flex;
     gap: 40px;
-
     align-items: flex-start;
   }
   .header-menu-link.current {
