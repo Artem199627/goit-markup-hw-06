@@ -75,8 +75,9 @@
   }
   /**-------------------BACKDROP--------------**/
   .modal {
-    width: 392px;
+    width: 408px;
   }
+
   .do-section {
     display: none;
     padding-bottom: 120px;
