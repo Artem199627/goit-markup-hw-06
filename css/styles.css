@@ -48,7 +48,6 @@ body {
   overflow: hidden;
 }
 .container {
-  /* width: 100%; */
   max-width: 428px;
   padding-left: 16px;
   padding-right: 16px;
@@ -98,7 +97,7 @@ body {
 .header-container {
   display: flex;
   align-items: center;
-  gap: 332px;
+  gap: 121px;
 }
 .header-nav {
   display: flex;
@@ -107,7 +106,6 @@ body {
 .header-menu {
   display: flex;
   gap: 40px;
-
   align-items: flex-start;
 }
 .header-menu-link.current {
@@ -124,11 +122,7 @@ body {
   height: 4px;
   border-radius: 2px;
 }
-.header-contact {
-  display: flex;
-  gap: 40px;
-  margin-left: auto;
-}
+
 .header-menu-link {
   color: var(--brand-color);
   font-size: 16px;
@@ -187,7 +181,6 @@ body {
   max-width: 268px;
   margin: 0 auto;
   text-align: left;
-  /* margin-bottom: 72px; */
 }
 .footer-item {
   width: 40px;
