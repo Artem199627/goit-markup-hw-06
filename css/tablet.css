@@ -15,8 +15,16 @@
     gap: 72px 24px;
   }
   /**------Customers-----**/
+
   .customers-item {
-    width: calc((100% - 24px * 2) / 3);
+    width: calc((100% - 48px) / 3);
+  }
+  .customers-link {
+    margin: 0 auto;
+    width: 168px;
+  }
+  .customers-list {
+    gap: 72px 24px;
   }
   /** ------Hero ------ **/
   .hero {
@@ -25,5 +33,52 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office-tab.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-tab2x.jpg);
+    }
+  }
+  /**---Footer---**/
+  .footer {
+    padding: 96px;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .footer-container-text {
+    text-align: left;
+  }
+  .footer-media-text {
+    text-align: left;
+  }
+  .footer-input {
+    width: 100%;
+    opacity: 0.6000000238418579;
+  }
+  .footer-subscribe-form {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+  }
+  /**-----Section 4 Team ------**/
+  .team-list {
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    flex-direction: row;
+  }
+  /**-------------------BACKDROP--------------**/
+  .modal {
+    width: 392px;
+  }
+  .do-section {
+    display: none;
+    padding-bottom: 120px;
   }
 }

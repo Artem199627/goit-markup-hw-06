@@ -36,13 +36,13 @@
     </header> -->
     
     <main>
-        <!-- <section class="hero">
+        <section class="hero">
         <div class="container hero-container">
             <h1 class="hero-title">Effective Solutions for Your Business</h1>
             <button class="hero-btn" type="button" data-modal-open>Order Service</button>
         </div>
-        </section> -->
-        <!-- <section class="feature">
+        </section>
+        <section class="feature">
         <div class="container">
             <h2 class="visually-hidden">Maintain</h2>
             <ul class="feature-list list">
@@ -86,8 +86,8 @@
              </li>
             </ul>
         </div>
-        </section> -->
-        <!-- <section class="do-section">
+        </section>
+        <section class="do-section">
     <div class="container">
             <h2 class="do-title">What are we doing</h2>
             <ul class="do-list list">
@@ -96,12 +96,19 @@
                 <li class="do-list-item"> <img src="./images/phone.jpg" alt="phone" width="360" height="300" class="do-img"/></li>
             </ul>
     </div>
-        </section> -->
-        <!-- <section class="team">
+        </section>
+        <section class="team">
          <div class="container ">
             <h2 class="team-title">Our Team</h2>
             <ul class="team-list list">
-            <li class="team-item"><img src="./images/mark.jpg" alt="mark" width="264" height="260" />
+            <li class="team-item">
+                <picture>
+                    <source srcset="./images/mark.jpg 1x, ./images/mark2x.jpg 2x" 
+                    media="(min-width: 1158px)"/>
+                    <source srcset="./images/mark.jpg 1x, ./images/mark2x.jpg 2x" media="(min-width: 768px)" />
+                    <source srcset="./images/mark.jpg 1x, ./images/mark2x.jpg 2x" media="(min-width: 320px)" />
+                    <img src="./images/mark.jpg" alt="mark" width="264" height="260" />
+                </picture>
                 <div class="container-names">
                     <h3 class="team-names">Mark Guerrero</h3>
                 <p class="team-jobs">Product Designer</p>
@@ -130,7 +137,13 @@
             </div>
             </li>
                 
-            <li class="team-item"><img src="./images/tom.jpg" alt="tom" width="264" height="260" />
+            <li class="team-item">
+                <picture>
+                    <source srcset="./images/tom.jpg 1x, ./images/tom2x.jpg 2x" media="(min-width: 1158px)" />
+                    <source srcset="./images/tom.jpg 1x, ./images/tom2x.jpg 2x" media="(min-width: 768px)" />
+                    <source srcset="./images/tom.jpg 1x, ./images/tom2x.jpg 2x" media="(min-width: 320px)" />
+                    <img src="./images/tom.jpg" alt="mark" width="264" height="260" />
+                </picture>
                 <div class="container-names"><h3 class="team-names">Tom Ford</h3>
                 <p class="team-jobs">Frontend Developer</p>
             
@@ -166,7 +179,14 @@
                
             </li>
 
-            <li class="team-item"><img src="./images/camila.jpg" alt="camila" width="264" height="260" />
+            <li class="team-item">
+                <picture>
+                    <source srcset="./images/camila.jpg 1x, ./images/camila2x.jpg 2x" media="(min-width: 1158px)" />
+                    <source srcset="./images/camila.jpg 1x, ./images/camila2x.jpg 2x" media="(min-width: 768px)" />
+                    <source srcset="./images/camila.jpg 1x, ./images/camila2x.jpg 2x" media="(min-width: 320px)" />
+                    <img src="./images/camila.jpg" alt="mark" width="264" height="260" />
+                </picture>
+               
                 <div class="container-names"><h3 class="team-names">Camila Garcia</h3>
                 <p class="team-jobs">Marketing</p>
             
@@ -201,7 +221,14 @@
             
                 
             </li>
-                <li class="team-item"><img src="./images/daniel.jpg" alt="daniel" width="264" height="260" />
+                <li class="team-item">
+                    <picture>
+                        <source srcset="./images/daniel.jpg 1x, ./images/daniel2x.jpg 2x" media="(min-width: 1158px)" />
+                        <source srcset="./images/daniel.jpg 1x, ./images/daniel2x.jpg 2x" media="(min-width: 768px)" />
+                        <source srcset="./images/daniel.jpg 1x, ./images/daniel2x.jpg 2x" media="(min-width: 320px)" />
+                        <img src="./images/daniel.jpg" alt="mark" width="264" height="260" />
+                    </picture>
+                
                 <div class="container-names"><h3 class="team-names">Daniel Wilson</h3>
                 <p class="team-jobs">UI Designer</p>
             
@@ -237,8 +264,8 @@
                 </li>
             </ul>
         </div>
-        </section> -->
-    <!-- <section class="customers">
+        </section>
+    <section class="customers">
      <div class="container">
                 <h2 class="customers-title">Customers</h2>
             <ul class="customers-list list">
@@ -269,7 +296,7 @@
             </ul>
       </div>
             
-    </section>    -->
+    </section>   
     </main>
     <footer class="footer">
         
@@ -348,7 +375,7 @@
                 </div>
                 <div class="modal-container-text">
                 <label for="user-comment" class="label-text">Comment</label>
-                    <textarea name="user-comment" id="user-comment" class="modal-textarea" placeholder="Text input"></textarea>
+                    <textarea name="user-commen  t" id="user-comment" class="modal-textarea" placeholder="Text input"></textarea>
                     </div>
                 <div class="checkbox">
                     <input type="checkbox" name="user-privacy" value="true" id="user-privacy" class="input-check visually-hidden" />
