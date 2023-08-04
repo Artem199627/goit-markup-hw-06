@@ -1,6 +1,8 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .header-container {
     display: flex;
@@ -25,9 +27,19 @@
   .feature-item {
     width: calc((100% - 24px) / 2);
   }
+  .feature-title {
+    text-align: left;
+  }
+  .feature-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
   .feature-list {
+    display: flex;
+
     flex-direction: row;
-    flex-wrap: wrap;
     gap: 72px 24px;
   }
   /**------Customers-----**/
@@ -60,11 +72,18 @@
         url(../images/people-office-tab2x.jpg);
     }
   }
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
   /**---Footer---**/
   .footer {
-    padding: 96px;
+    padding: 96px 0;
   }
   .footer-container {
+    width: 552px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -83,7 +102,7 @@
     text-align: left;
   }
   .footer-input {
-    max-width: 264px;
+    width: 264px;
     opacity: 0.6000000238418579;
   }
   .footer-subscribe-form {
@@ -100,6 +119,7 @@
   /**-------------------BACKDROP--------------**/
   .modal {
     width: 408px;
+    padding: 72px 24px 24px 24px;
   }
 
   .do-section {
