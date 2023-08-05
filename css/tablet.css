@@ -126,4 +126,11 @@
     display: none;
     padding-bottom: 120px;
   }
+  .filters {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+  .filters-list {
+    justify-content: center;
+  }
 }

@@ -663,14 +663,17 @@ body {
 }
 /**--------FILTRES--------**/
 .filters {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding: 48px 0;
 }
 .filters-list {
   display: flex;
   gap: 24px;
-  justify-content: center;
+  justify-content: left;
   margin-bottom: 72px;
+  flex-wrap: wrap;
+}
+.filters-item {
+  /* width: calc((100% - 48px) / 3); */
 }
 .filters-btn {
   color: var(--color-logo);
@@ -681,7 +684,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  padding: 12px 24px;
+  padding: 8px 16px;
   border-radius: 4px;
   background: var(--color-btn);
   border: 1px solid var(--color-border);
@@ -699,9 +702,11 @@ body {
 }
 .phone-list {
   display: flex;
-  gap: 48px 24px;
-  margin-top: 72px;
-  flex-wrap: wrap;
+  gap: 42px;
+  /* gap: 48px 24px; */
+  /* margin-top: 48px; */
+  /* flex-wrap: wrap; */
+  flex-direction: column;
 }
 .cover-item {
   position: relative;
@@ -709,6 +714,7 @@ body {
 }
 
 .phone-item {
+  margin: 0 auto;
   background: var(--color-text #fff);
   width: 360px;
 }
